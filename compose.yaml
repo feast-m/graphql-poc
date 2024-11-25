@@ -1,0 +1,17 @@
+﻿services:
+  graphql-api-test:
+    image: graphql-api-test
+    build:
+      context: .
+      dockerfile: graphql-api-test/Dockerfile
+      
+  mongo:
+    image: mongo:latest
+    ports:
+      - '27017:27017'
+
+  graphql-api-dev:
+    image: graphql-api-dev
+    build:
+      context: .
+      dockerfile: graphql-api-dev/Dockerfile

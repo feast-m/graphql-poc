@@ -1,0 +1,7 @@
+@graphql_api_test_HostAddress = http://localhost:5272
+
+GET {{graphql_api_test_HostAddress}}/trigger
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJleHAiOjE3NjM2MTUxMTMsInJvbGVzIjpbIm93bmVyIl19.St_r1STpsIZ8GMi4G7Y9UurxcjFz8WkptGw2iRc-1co
+Accept: application/json
+
+###
